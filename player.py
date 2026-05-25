@@ -4,7 +4,7 @@ from constants import PLAYERS_RADIUS, LINE_WIDTH, PLAYER_TURN_SPEED, PLAYER_SPEE
 
       # Player shape defined
 class Player(CircleShape):
-    def __init__(self, x: int, y: int) -> None:
+    def __init__(self, x: float, y: float) -> None:
         super().__init__(x, y, PLAYERS_RADIUS)
         self.rotation = 0
     
